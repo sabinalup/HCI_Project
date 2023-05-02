@@ -1,1 +1,1 @@
-Membri: Avarvarei Bianca_FLorina, Grigorita VLad, Lup Sabina-Elena
+Membri: Avarvarei Bianca FLorina, Grigorita VLad, Lup Sabina-Elena
