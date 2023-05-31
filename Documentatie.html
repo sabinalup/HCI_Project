@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Documentatie</title>
+</head>
+
+<body>
+    <article>
+        <header>
+            <h1>
+                BEGR(best goods recommender)
+            </h1>
+        </header>
+
+        <div role="contentinfo">
+            <section typeof="sa:AuthorsList">
+                <h2>Authors</h2>
+                <ul>
+                    <li typeof="sa:ContributorRole" property="schema:author">
+                        <span typeof="schema:Person">
+                            <meta property="schema:givenName" content="Avărvărei">
+                            <meta property="schema:familyName" content="Bianca">
+                            <span property="schema:name">Avărvărei Bianca</span>
+                        </span>
+                    </li>
+
+                    <li typeof="sa:ContributorRole" property="schema:author">
+                        <span typeof="schema:Person">
+                            <meta property="schema:givenName" content="Grigoriță">
+                            <meta property="schema:familyName" content="Vlad">
+                            <span property="schema:name">Grigoriță Vlad</span>
+                        </span>
+                    </li>
+
+                    <li typeof="sa:ContributorRole" property="schema:author">
+                        <span typeof="schema:Person">
+                            <meta property="schema:givenName" content="Sabina">
+                            <meta property="schema:familyName" content="Lup">
+                            <span property="schema:name">Lup Sabina</span>
+                        </span>
+                    </li>
+
+                </ul>
+            </section>
+        </div>
+
+        <section>
+            <h3>Introduction</h3>
+            <section>
+                <h4>1.1 Introduction</h4>
+                <p>
+                    BEGR is an application that recommends the products, while considering restrictions such as quality, price, for a set of desired goodies, including several information of interest such as characteristics, price, geographic availability. The application also can see whether products/services on the basis of the user's social graph (his/her "friends" on a social network).
+                    This application uses QR code scanning to enable users to connect their smart fridges to their phone. Geographic availability is also taken into account, as the app displays nearby stores on a map view, highlighting the availability and pricing of desired goods. 
+                </p>
+            </section>
+
+            <section>
+                <h4>1.2 Conventions</h4>
+                <p>
+                    This document was created based on IEEE's tamplate for ystem Requirement Specification Documents.
+                </p>
+            </section>
+
+            <section>
+                <h4>1.3 Intended Audience and Reading Suggestions</h4>
+                <p>
+                    The app is designed for a wide range of users, including individuals who may be health-conscious or seek a way to make their shopping experiences easier and cheaper. 
+                    The app also caters to users who are open to exploring new products and services based on recommendations from their social network friends.
+                </p>
+            </section>
+
+            <section>
+                <h4>1.4 Purpose</h4>
+                <p>
+                    The purpose of BEGR is to provide users with an easy to use tool when is comes to making purchasing decisions. 
+                    The app aims to simplify the shopping process through factors such as product price, restrictions, and geographic availability. 
+                    It helps users find the best products that align with their preferences and social connections.
+                </p>
+            </section>
+
+            <section>
+                <h4>1.5 References</h4>
+                <ol>
+                    <li typeof="schema:WebPage" role="doc-biblioentry"
+                        resource="https://github.com/sabinalup/HCI_Project" property="schema:citation">
+                        <cite property="schema:name">
+                            <a href="https://github.com/paulabalint/Tehnologii-Web.git">Pagina Github a Proicetului</a>
+                        </cite>
+                    </li>
+
+                    <li typeof="schema:WebPage" role="doc-biblioentry"
+                        resource="https://github.com/rick4470/IEEE-SRS-Tempate#42-system-feature-2-and-so-on"
+                        property="schema:citation">
+                        <cite property="schema:name">
+                            <a href="https://github.com/rick4470/IEEE-SRS-Tempate#42-system-feature-2-and-so-on">IEEE
+                                Template for System Requirements Specification Documents</a>
+                        </cite>
+                    </li>
+                </ol>
+            </section>
+
+        </section>
+
+        <section>
+            <h3>2.Description</h3>
+            <section>
+                <h4>2.1 Product Functionality</h4>
+                <section>
+                    <h4>Mobile and Tablet</h4>
+                    <p>Home page:</p>
+                        <ul>
+                            <li>
+                                Edit profile: sends user to Edit Profile page
+                            </li>
+                            <li>
+                                Place new order: sends user to Products page
+                            </li>
+                            <li>
+                                Settings: sends user to Settings page
+                            </li>
+                            <li>
+                                Products: sends user to products page
+                            </li>
+                            <li>
+                                My bag: sends user to My Bag page
+                            </li>
+                        </ul>
+
+                        <p>Settings page:</p>
+                        <ul>
+                            <li>
+                                Edit profile: sends user to Edit profile page
+                            </li>
+                            <li>
+                                My Adress: change location
+                            </li>
+                            <li>
+                                My Orders: check order history
+                            </li>
+                            <li>
+                                Products: sends user to products page
+                            </li>
+                            <li>
+                                My bag: sends user to My Bag page
+                            </li>
+                            <li>
+                                Home: sends user to Home page
+                            </li>
+                            <li>
+                                Chat with us: sends user to customer support page
+                            </li>
+                            <li>
+                                Payment Method: sends used to Payment page
+                            </li>
+                            <li>
+                                Mail to us: send mail to customer support
+                            </li>
+                            <li>
+                                Log out: log user out 
+                            </li>
+                        </ul>
+
+                        <p>Edit profile page:the user can change account details such as phone number, name, email,etc</p>
+                        
+                        <p>Payment page:let user select payment type</p>
+
+                        <p>Products page: the users can select what type of products they want to see(Fruits, Vegetsables,etc), they can also see the prices, the location, and the rating of the goods</p>
+                        <ul>
+                            <li>
+                                Edit profile: sends user to Edit Profile page
+                            </li>
+                            <li>
+                                Settings: sends user to Settings page
+                            </li>
+                            <li>
+                                My bag: sends user to My Bag page
+                            </li>
+                            <li>
+                                Home: sends user to Home page
+                            </li>
+                        </ul>
+
+                        <p>My bag page:</p>
+                        <ul>
+                            <li>
+                                Edit profile: sends user to Edit Profile page
+                            </li>
+                            <li>
+                                Place order: sends user to Order Completed page
+                            </li>
+                            <li>
+                                Add more products: sends user to Products page
+                            </li>
+                            <li>
+                                Settings: sends user to Settings page
+                            </li>
+                            <li>
+                                Products: sends user to products page
+                            </li>
+                            <li>
+                                Home: sends user to Home page
+                            </li>
+                        </ul>
+
+                        <p>Order Completed Page:</p>
+                        <ul>
+                            <li>
+                                Skip:sends user to Home page
+                            </li>
+                            <li>
+                                Submit: completes the order and then sends the user to the Home page
+                            </li>
+                        </ul>
+
+                        <p>Product Details Page:</p>
+                        <ul>
+                            <li>
+                                Return button: return to the page of the specific product
+                            </li>
+                            <li>
+                                Add to bag: adds element to cart
+                            </li>
+                        </ul>
+                      
+                </section>
+
+                <section>
+                    <h4>Smart Fridge</h4>
+                    <p>Home Page:</p>
+                    <ul>
+                        <li>
+                            QR Code: for the mobile app to be scanned and to be able to place the order
+                        </li>
+                         <li>
+                            Place new order: sends user to Products page
+                        </li>
+                        <li>
+                            Settings: sends user to Settings page
+                        </li>
+                        <li>
+                            Products: sends user to products page
+                        </li>
+                        <li>      
+                    </ul>
+
+                    <p>Product Details Page:</p>
+                    <ul>
+                        <li>
+                            Return button: return to the page of the specific product
+                        </li>
+                        <li>
+                            Add to bag: adds element to cart
+                        </li>
+                    </ul>
+
+                    <p>Products page: the users can select what type of products they want to see(Fruits, Vegetsables,etc), they can also see the prices, the location, and the rating of the goods</p>
+                        <ul>
+                            <li>
+                                Edit profile: sends user to Edit Profile page
+                            </li>
+                            <li>
+                                My bag: sends user to My Bag page
+                            </li>
+                            <li>
+                                Home: sends user to Home page
+                            </li>
+                        </ul>
+
+                     <p>My Bag page: scan QR code</p>
+                </section>
+            </section>
+
+            <section>
+                <h4>2.2 User Classes and Characteristics</h4>
+                <p>
+                    We anticipate that the app will be used by various people who are in charge of managing the food available on location, necessary for preparing dishes. 
+                    It can be used in both private homes and restaurants by those who are responsible of the cooking meals, regardless of level of education or experience, as it is easy to use due to its simple design. 
+                    Moreover, it is intended for chefs who want to prepare food with the highest quality ingredients at the most convenient price.
+                </p>
+            </section>
+
+            <section>
+                <h4>2.3 Operating Environment</h4>
+                <p>
+                    The app can be used both on a phone and tablet with an internet connection and in a smart fridge implementation.
+                </p>
+            </section>
+
+            <section>
+                <h4>2.4 Design and Implementation Constraints</h4>
+                <p>
+                    Most of the constraints are directed towards the smart fridge application. In order to complete and make purchases, it is necessary to be connected to the app on the phone or tablet, where the corresponding user information is stored. This action is done through the QR code.
+                </p>
+            </section>
+        </section>
+
+        <section>
+            <h3>3. External Interface Requirements</h3>
+            <section>
+                <h4>3.1 User Interfaces</h4>
+                <ul>
+                    <li><a href="https://www.figma.com/file/e5INyc1L9xkNxquaYnOXK0/Untitled?type=design&t=AvWd0ikx2qAsoY1B-0">Mobile</a></li>
+                    <li><a href="https://www.figma.com/file/kCkiCcHcR1evxGRAhVnBHl/Untitled?type=design&amp;node-id=0-1&t=5i1tMltiyXGel1zP-0">Tablet</a></li>
+                    <li><a href="https://www.figma.com/file/BTfw5ifwnFY3oHKou8WbRc/Untitled?type=design&amp;node-id=0-1&t=AvWd0ikx2qAsoY1B-0">Fridge</a></li>
+                </ul>
+            </section>
+
+            <section>
+                <h4>3.2 Software Interfaces</h4>
+                <ul>
+                    <li>QR Code Scanner: The app interfaces with the device's camera to scan QR codes</li>
+                    <li>Social Network Integration: The app comunicates with popular social networks</li>
+                    <li>Location Services: The app interacts with the device's location services, utilizing GPS or other location tracking technologies to determine the user's geographical location</li>
+                    <li>Database and API Integration: The app interfaces with databases or APIs to retrieve and store product information</li>
+                </ul>
+            </section>
+
+            <section>
+                <h4>3.3 Hardware Interfaces</h4>
+                <ul>
+                    <li>Mobile Phones and Tablets: The app is using touchscreens, cameras for QR code scanning, and GPS</li>
+                    <li>Smart Refrigerators: The app integrates with smart refrigerators</li>
+                </ul>
+            </section>
+        </section>
+    </article>
+</body>
+</html>
